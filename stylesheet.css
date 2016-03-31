@@ -1,0 +1,115 @@
+*{
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+}
+img.logo {
+	padding-bottom: 20px;
+	max-height: 15%;
+	width: auto;
+}
+
+input[type="text"] {
+	width: 580px;
+	height: 35px;
+	border:  1px solid #d9d9d9;
+	text-indent: 8px;
+	padding-right: 50px;
+	margin-top: 10px;
+}
+
+input:hover {
+	border: 1px solid #a6a6a6;
+}
+input:focus {
+	border: 1px solid #6699ff;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	float: right;
+	margin-right: 10px;
+}
+li {
+	display: inline;
+	padding: 7px;
+	padding-top: 20px;
+}
+a {
+	color: gray;
+	vertical-align: baseline;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+.footer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 14px;
+	padding-right:25px;
+	padding-left:25px;
+	border-top: 1px solid #d9d9d9;
+}
+#leftside {
+	float: left;
+}
+#rightside {
+	float: right;
+	margin-right: 25px;
+}
+/*#mic img{
+	display: block;
+	height: 30px;
+	width: auto;
+	margin: 0;
+	vertical-align: baseline;
+}*/
+input[value="voice"] {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC");
+	background-size: 35px 35px;
+	height: 35px;
+	width: 35px;
+	opacity: 1;
+	margin-left: -43px;
+	color: transparent;
+	background-color: transparent;
+	border: none;+
+
+}
+.searchbar {
+	vertical-align: baseline;
+}
+input[value="Google Search"]{
+	background-color: #f2f2f2;
+    border: none;
+    color: #595959;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 14px;
+}
+input[Value="I'm Feeling Lucky"]{
+	background-color: #f2f2f2;
+    border: none;
+    color: #595959;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 14px;
+}
